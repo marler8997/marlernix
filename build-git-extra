@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -ex
+drv=$(nix-instantiate . -A git-extra)
+nix-store -r $drv

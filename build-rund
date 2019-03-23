@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -ex
+drv=$(nix-instantiate . -A rund)
+nix-store -r $drv
