@@ -8,5 +8,6 @@
     gitRepo # Google's repo tool
     meson
     dmd
+    python3
   ];
 }
