@@ -12,5 +12,9 @@ Open `/etc/nixos/configuration.nix` and add to imports
     [
       ...
       /home/me/git/marlernix/nixos
+      # Add any extra package configs such as
+      /home/me/git/marlernix/nixos/docker.nix
+      /home/me/git/marlernix/nixos/apache.nix
+      /home/me/git/marlernix/nixos/lxd.nix
     ];
 ```
