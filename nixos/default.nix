@@ -2,6 +2,7 @@
 
 {
   imports = [
+    ./machine-specific.nix
     ./tools.nix
     ./marler8997.nix
   ];
