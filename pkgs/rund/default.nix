@@ -5,8 +5,8 @@ stdenv.mkDerivation rec {
   
   src = fetchgit {
     url = http://github.com/dragon-lang/rund;
-    rev = "a11f5287c9f69a745931a632872c7b218c9d768c";
-    sha256 = "10x6f1nn294r5qnpacrpcbp348dndz5fv4nz6ih55c61ckpkvgcf";
+    rev = "0f0807ba1733bf760dfafdda11f6d34f10f4e534";
+    sha256 = "0g9667i1lglykj3v6fr4y0v4h71wqlblkr1420az2v7y5yslb0gq";
   };
 
   buildInputs = [ ldc ];
