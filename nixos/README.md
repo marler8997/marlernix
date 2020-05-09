@@ -6,6 +6,8 @@ cd /home/me/git
 git clone https://github.com/marler8997/marlernix
 ```
 
+Create a `machine-specific.nix` file to hold machine-specific configuration.
+
 Open `/etc/nixos/configuration.nix` and add to imports
 ```
   imports =
