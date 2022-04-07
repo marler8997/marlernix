@@ -17,7 +17,7 @@
     pkgs.gnome.gnome-terminal
     pkgs.gnome.gedit
     # install chrome instead with: NIXPKGS_ALLOW_UNFREE=1 nix-env -iA nixos.google-chrome
-    # pkgs.epiphany
+    pkgs.epiphany
     pkgs.evince
     pkgs.gnome.gnome-characters
     pkgs.gnome.totem
