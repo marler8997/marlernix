@@ -10,6 +10,7 @@
     dmd
     python3
     sakura
+    meld
   ];
 
   # Terminal Emulators
