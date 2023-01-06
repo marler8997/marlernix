@@ -11,6 +11,7 @@
     python3
     sakura
     meld
+    unzip
   ];
 
   # Terminal Emulators
