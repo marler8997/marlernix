@@ -2,6 +2,12 @@
 
 {
   # TODO: can I set all this based on whether gnome is enabled?
+  services.xserver = {
+    enable = true;
+    autorun = true;
+    displayManager.gdm.enable = true;
+    desktopManager.gnome.enable = true;
+  };
   programs.dconf.enable = true;
   environment.systemPackages = [
     pkgs.gnome3.adwaita-icon-theme
