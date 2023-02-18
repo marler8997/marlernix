@@ -7,11 +7,11 @@
     gitFull
     gitRepo # Google's repo tool
     meson
-    dmd
     python3
     sakura
     meld
     unzip
+    ripgrep
   ];
 
   # Terminal Emulators
