@@ -21,7 +21,7 @@
     pkgs.gnome-photos
     pkgs.gnome.gnome-music
     pkgs.gnome.gnome-terminal
-    pkgs.gnome.gedit
+    pkgs.gedit
     # install chrome instead with: NIXPKGS_ALLOW_UNFREE=1 nix-env -iA nixos.google-chrome
     pkgs.epiphany
     pkgs.evince

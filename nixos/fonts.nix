@@ -2,17 +2,17 @@
 
 {
   # for some reason on nixos 21.05, this breaks emacs fonts
-  #fonts.fonts = with pkgs; [
+  #fonts.packages = with pkgs; [
   #  fira-code
   #];
 
-  #fonts.fonts = with pkgs; [
+  #fonts.packages = with pkgs; [
   #  jetbrains-mono
   #  dejavu_fonts
   #  noto-fonts
   #  hack-font
   #];
-  fonts.fonts = with pkgs; [
+  fonts.packages = with pkgs; [
     # This one line fixed my wide terminal fonts and emacs font!!!!
     iosevka
     #noto-fonts
